@@ -8,7 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 /*
  * Platform and Environment providers/directives/pipes
  */
-import { environment } from 'environments/environment';
+import { environment, ENV_FIREBASE_CONFIG } from 'environments/environment';
 import { ROUTES } from './app.routes';
 // App is our top level component
 import { AppComponent } from './app.component';
@@ -21,7 +21,11 @@ import { XLargeDirective } from './home/x-large';
 import { DevModuleModule } from './+dev-module';
 
 import '../styles/styles.scss';
-import '../styles/headings.css';
+import '../styles/headings.scss';
+
+import { AngularFireModule, FirebaseAppConfig } from 'angularfire2';
+import { AngularFireAuthModule } from 'angularfire2/auth';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
 
 // Application wide providers
 const APP_PROVIDERS = [
@@ -59,6 +63,10 @@ interface StoreType {
       useHash: Boolean(history.pushState) === false,
       preloadingStrategy: PreloadAllModules
     }),
+
+    AngularFireModule.initializeApp(ENV_FIREBASE_CONFIG, 'example'),
+    AngularFireDatabaseModule,
+    AngularFireAuthModule,
 
     /**
      * This section will import the `DevModuleModule` only in certain build types.

@@ -1,11 +1,10 @@
 {
   "firebase": {
-    "apiKey": "",
-    "authDomain": "XXXXXX.firebaseapp.com",
-    "databaseURL": "https://XXXXXX.firebaseio.com",
-    "projectId": "XXXXXX",
-    "storageBucket": "XXXXXX.appspot.com",
-    "messagingSenderId": "000000000000"
-  },
-  "gtmKey" : "GTM-XXXXXXX"
+    "apiKey": "AIzaSyBEye0hGj4KonvVf6NJjYeZoLOwvQ5dI74",
+    "authDomain": "test-8d4a2.firebaseapp.com",
+    "databaseURL": "https://test-8d4a2.firebaseio.com",
+    "projectId": "test-8d4a2",
+    "storageBucket": "test-8d4a2.appspot.com",
+    "messagingSenderId": "678755355287"
+  }
 }
