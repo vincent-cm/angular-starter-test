@@ -1,11 +1,10 @@
 {
   "firebase": {
-    "apiKey": "",
-    "authDomain": "XXXXXX.firebaseapp.com",
-    "databaseURL": "https://XXXXXX.firebaseio.com",
-    "projectId": "XXXXXX",
-    "storageBucket": "XXXXXX.appspot.com",
-    "messagingSenderId": "000000000000"
-  },
-  "gtmKey" : "GTM-XXXXXXX"
+    "apiKey": "AIzaSyBVbC-7xt9XFI4hHO4fxMmvQdXr6ABBlwo",
+    "authDomain": "i-digi-sign.firebaseapp.com",
+    "databaseURL": "https://i-digi-sign.firebaseio.com",
+    "projectId": "i-digi-sign",
+    "storageBucket": "i-digi-sign.appspot.com",
+    "messagingSenderId": "155486836213"
+  }
 }
